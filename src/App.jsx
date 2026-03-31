@@ -86,7 +86,7 @@ const App = () => {
           <div className="bg-slate-200 w-full h-[400px] rounded-3xl overflow-hidden shadow-2xl">
             
 
-            <img src="./assets/banner.png" alt="Hero" className="w-full h-full object-cover" />
+            <img src="https://i.ibb.co/M0FBMrj/banner.png" alt="Hero" className="w-full h-full object-cover" />
 
           </div>
         </div>
