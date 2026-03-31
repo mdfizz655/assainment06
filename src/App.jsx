@@ -84,7 +84,8 @@ const App = () => {
         </div>
         <div className="md:w-1/2 relative">
           <div className="bg-slate-200 w-full h-[400px] rounded-3xl overflow-hidden shadow-2xl">
-            {/* আপনার ছবি এখানে বসাবেন */}
+            
+
             <img src="./assets/banner.png" alt="Hero" className="w-full h-full object-cover" />
 
           </div>
@@ -92,7 +93,7 @@ const App = () => {
       </header>
 
       
-     {/* 📊 Stats Section */}
+     {/*  Stats Section */}
 <section className="bg-[#7F2FFF] py-12 w-full flex justify-around text-white text-center">
   <div className="flex-1 border-r border-white/20">
     <h2 className="text-4xl font-bold">50K+</h2>
