@@ -39,7 +39,9 @@ const App = () => {
     <div className="bg-white min-h-screen text-slate-800">
       <ToastContainer position="top-right" autoClose={2000} />
 
-      {/* 🧭 Navbar */}
+      {/*Navbar */}
+
+
       <nav className="flex items-center justify-between px-6 py-4 md:px-20 bg-white sticky top-0 z-50">
         <div className="text-2xl font-bold text-[#7F2FFF]">DigiTools</div>
         <div className="hidden md:flex space-x-8 font-medium text-sm">
@@ -57,7 +59,11 @@ const App = () => {
         </div>
       </nav>
 
-      {/* 🎯 Hero Section */}
+
+
+      {/* Hero Section */}
+
+
       <header className="px-6 md:px-20 py-16 flex flex-col md:flex-row items-center gap-12">
         <div className="md:w-1/2">
           <div className="inline-flex items-center gap-2 bg-[#F3EBFF] text-[#7F2FFF] px-3 py-1 rounded-full text-xs font-bold mb-6">
@@ -93,7 +99,8 @@ const App = () => {
       </header>
 
       
-     {/*  Stats Section */}
+     {/* Stats Section */}
+
 <section className="bg-[#7F2FFF] py-12 w-full flex justify-around text-white text-center">
   <div className="flex-1 border-r border-white/20">
     <h2 className="text-4xl font-bold">50K+</h2>
@@ -109,7 +116,10 @@ const App = () => {
   </div>
 </section>
 
-      {/* 📦 Products Section with Toggling */}
+
+      {/* Products Section with Toggling */}
+
+
       <section className="py-20 px-6 md:px-20">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-extrabold mb-4">Premium Digital Tools</h2>
@@ -147,7 +157,8 @@ const App = () => {
             ))}
           </div>
         ) : (
-          /* 🛒 Cart Design as per Figma photo 1 */
+          /* Cart Design as per Figma photo 1 */
+
           <div className="max-w-4xl mx-auto bg-white border rounded-[32px] p-6 md:p-12 shadow-sm">
             <h2 className="text-2xl font-bold mb-8">Your Cart</h2>
             {cart.length === 0 ? (
@@ -177,7 +188,9 @@ const App = () => {
         )}
       </section>
 
-      {/* 🪜 Steps Section */}
+
+      {/*  Steps Section */}
+
       <section className="py-20 bg-slate-50 px-6 md:px-20 text-center">
         <h2 className="text-4xl font-extrabold mb-4">Get Started In 3 Steps</h2>
         <p className="text-slate-500 mb-16">Start using premium digital tools in minutes, not hours.</p>
@@ -197,12 +210,15 @@ const App = () => {
         </div>
       </section>
 
-      {/* 💰 Pricing Section */}
+      {/* Pricing Section */}
+
       <section className="py-24 px-6 md:px-20 text-center">
         <h2 className="text-4xl font-extrabold mb-4">Simple, Transparent Pricing</h2>
         <p className="text-slate-500 mb-16">Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+
           {/* Starter */}
+
           <div className="bg-slate-50 p-10 rounded-3xl text-left border border-slate-100">
             <h4 className="text-xl font-bold">Starter</h4>
             <p className="text-sm text-slate-500 mb-6">Perfect for getting started</p>
@@ -214,7 +230,11 @@ const App = () => {
             </ul>
             <button className="w-full bg-[#7F2FFF] text-white py-3 rounded-xl font-bold">Get Started Free</button>
           </div>
+
+
           {/* Pro (Highlighted) */}
+
+
           <div className="bg-[#7F2FFF] p-12 rounded-[40px] text-left text-white shadow-2xl relative scale-105 z-10">
             <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-yellow-400 text-slate-900 px-4 py-1 rounded-full text-xs font-extrabold">Most Popular</div>
             <h4 className="text-xl font-bold">Pro</h4>
@@ -228,7 +248,10 @@ const App = () => {
             </ul>
             <button className="w-full bg-white text-[#7F2FFF] py-4 rounded-2xl font-extrabold">Start Pro Trial</button>
           </div>
+
           {/* Enterprise */}
+
+
           <div className="bg-slate-50 p-10 rounded-3xl text-left border border-slate-100">
             <h4 className="text-xl font-bold">Enterprise</h4>
             <p className="text-sm text-slate-500 mb-6">For teams and businesses</p>
@@ -243,7 +266,9 @@ const App = () => {
         </div>
       </section>
 
-      {/* 🚀 CTA Section */}
+      {/* CTA Section */}
+
+
       <section className="py-20 px-6 md:px-20">
         <div className="bg-gradient-to-r from-[#7F2FFF] to-[#a45cff] rounded-[48px] py-16 px-10 text-center text-white">
           <h2 className="text-4xl font-extrabold mb-4">Ready To Transform Your Workflow?</h2>
@@ -256,7 +281,11 @@ const App = () => {
         </div>
       </section>
 
-     {/* 🦶 Footer */}
+
+
+     {/* Footer */}
+
+
       <footer className="bg-[#0F172A] text-white pt-20 pb-10 px-6 md:px-20">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-20">
           <div className="col-span-1 md:col-span-1">
@@ -284,19 +313,26 @@ const App = () => {
           <div>
   <h5 className="font-bold mb-6">Social Links</h5>
   <div className="flex gap-4">
+
     {/* Facebook */}
+
     <a href="#" className="bg-white/10 w-12 h-12 rounded-full flex items-center justify-center hover:bg-[#7F2FFF] transition-all text-white">
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
         <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
       </svg>
     </a>
+
+
     {/* Instagram */}
+
     <a href="#" className="bg-white/10 w-12 h-12 rounded-full flex items-center justify-center hover:bg-[#7F2FFF] transition-all text-white">
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
         <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.999 0h.001zm1.978 1.864c.757.034 1.168.16 1.442.266.364.141.624.308.896.58.272.271.439.53.58.894.107.273.232.684.266 1.44.034.758.043 1.02.043 3.197s-.009 2.439-.043 3.196c-.034.757-.16 1.169-.266 1.441a2.451 2.451 0 0 1-.58.896 2.454 2.454 0 0 1-.894.58c-.273.107-.684.232-1.441.266-.757.034-1.02.043-3.197.043s-2.44-.009-3.196-.043c-.757-.034-1.169-.16-1.441-.266a2.473 2.473 0 0 1-.896-.58 2.477 2.477 0 0 1-.58-.896c-.107-.273-.232-.684-.266-1.441-.034-.757-.043-1.02-.043-3.197s.009-2.44.043-3.196c.034-.757.16-1.169.266-1.441.141-.364.308-.624.58-.896.271-.272.53-.439.894-.58.273-.107.684-.232 1.441-.266.757-.034 1.02-.043 3.197-.043s2.44.009 3.196.043zm-3.978 1.902a4.237 4.237 0 1 0 0 8.474 4.237 4.237 0 0 0 0-8.474zm0 7.008a2.771 2.771 0 1 1 0-5.543 2.771 2.771 0 0 1 0 5.543zm3.601-7.149a1.08 1.08 0 1 1-2.161 0 1.08 1.08 0 0 1 2.161 0z"/>
       </svg>
     </a>
+
     {/* Twitter/X */}
+    
     <a href="#" className="bg-white/10 w-12 h-12 rounded-full flex items-center justify-center hover:bg-[#7F2FFF] transition-all text-white">
       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
         <path d="M12.6 0h2.454l-5.36 6.142L16 16h-4.937l-3.867-5.07L2.777 16H.325l5.733-6.57L0 0h5.063l3.495 4.633L12.6 0zm-.86 14.534h1.36L4.023 1.447H2.565l9.175 13.087z"/>
